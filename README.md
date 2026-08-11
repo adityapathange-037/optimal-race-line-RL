@@ -23,7 +23,7 @@ Autonomous vehicle control and motorsport engineering both require calculating o
 ## Mathematical Summary
 The optimal state-value function $V^*(s)$ is computed using the Bellman Optimality Equation over a discount factor $\gamma = 0.95$:
 
-$$V_{k+1}(x,y,v) = \max_{(a_v, a_y)} \left\{ R(s, a, s') + \gamma V_k(x', y', v') \right\}$$
+$$V_{k+1}(x,y,v) = \max_{(a_v, a_y)} \{ R(s, a, s') + \gamma V_k(x', y', v') \}$$
 
 ### Reward Structure
 - **Goal Reach:** $+100.0$
